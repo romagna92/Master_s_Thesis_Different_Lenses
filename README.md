@@ -59,7 +59,7 @@ Master_s_Thesis/
 │       ├── ReplaceActorNames.py                                        # Subfunction  
 │       └── ReplaceMovieTitles.py                                       # Subfunction  
   
-├── Rotten Tomatoes Reviews                                     # Contains translated and cleaned audience and critic review dataset, as well as movie-level data  
+├── Rotten Tomatoes Reviews                                     # Contains translated and cleaned audience and critic review dataset, as well as movie-level data  (missing on GitHub due to storage space constraints)
 │   ├── Audience Reviews Clean                                  # 25 Json files containing audience review data  
 │   ├── Critic Reviews Clean                                    # 20 Json files containing critic review data  
 │   └── rt_movies_clean.Json                                    # Json file containing cleaned movie-level data  
@@ -70,7 +70,7 @@ Master_s_Thesis/
 │   ├── BERTopicLoadModel.py                                    # Load a previously trained model (inputs and outputs handled automatically).  
 │   └── BERTopicTraining.py                                     # Train model (inputs and outputs handled automatically)  
    
-├── Translation                                                 # Contains Functions for Language Detection and Translation (The provided Dataset is already translated and cleaned, therefore should not be required).  
+├── Translation                                                 # Contains Functions for Language Detection and Translation  
 │   ├── TranslateMovieReview.py                                 # Loads reviews, calls Language Detection to identify non-English reviews, and translates those into English.  
 │       ├── DetectLanguage.py                                           # Subfunction  
 │       ├── MovieReviewTranslatorDeepl.py                               # Subfunction    (Do not use, unless someone else is footing the bill :) )  
@@ -78,7 +78,7 @@ Master_s_Thesis/
    
 ├── Webscraping_RT_BoxOffice                                    # Contains Function to Scrape Box Office Revenues from Rotten Tomatoes and a Runner Script  
 │   ├── Scraping Box Office off of RT.py            (!)         # Runner Script (!) to scrape Box office figures from Rotten Tomatoes  
-│       ├── prepare_movie_list_for_scraping.py                  # Function to prepare a list of movies to scrape for (input file will not be available)  
+│       ├── prepare_movie_list_for_scraping.py                  # Function to prepare a list of movies to scrape for  
 │       └── ScrapeBoxOfficeRT.py                                # Function doing the scraping, called by the runner script  
   
 ├── Webscraping_RT_XHR                                          # Contains Code needed to Scrape Film Reviews from Rotten Tomatoes  

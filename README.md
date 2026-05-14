@@ -13,7 +13,7 @@ The function NLPAnalysis calls the functions for Argument Detection, Aspect Extr
 Similarly, the function PreprocessMovieReviews can be called to either mask actor names, or movie titles and controls in- and outputs.
 
 
-
+<pre>
 Code/Workspace Structure:  
 
 Master_s_Thesis/  
@@ -86,3 +86,4 @@ Master_s_Thesis/
 │   └── XHR_BatchScrapingRT.py                                  # Function to handle batching of review scraping and saving of outputs, uses the following functions for parallelized web scraping  
 │       ├── XHR_ParalleliseScraping.py                                  # Subfunction    (Called by previous function to parallelize the scraping process)  
 │       └── XHR_RTScraper.py                                            # Subfunction    (The function doing the web scraping)  
+</pre>
